@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header, nav, footer, main{
+	width: 100%;
+	background-color: #09122C;
+	color: aliceblue;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav{
+	height: auto;
+	background-color: aquamarine;
+}
+nav ul li{
+	width: auto;
+	list-style-type: none;
+	background-color: beige;
+	color: blueviolet;
+	display: inline-block;
+	margin-left: 80px;
+	margin-right: 50px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+nav ul li a:link, nav ul li a:visited{
+	color: #E17564;
+	text-decoration: none;
+	
+}
+nav ul li a:hover{
+	color: red;
+}
+nav ul li:hover{
+	background-color:darkcyan;
+	width: 150px;
+	font-size: 18px;
+}
+main{
+	height: auto;
+	background-color:blue;
+}
+section{
+	width: 80%;
+	height: auto;
+	background-color: burlywood;
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+h2,p{
+	margin-bottom: 30px;
+}
+h2{
+	color: blueviolet;
+}
+#tabla_1{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, #tabla_3 th, #tabla_3 td{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+#tabla_1 th, #tabla_2 th, #tabla_3 th{
+	background-color: coral;
+	color:chartreuse;
+}
+#tabla_1 td{
+	background-color: darkmagenta;
+}
+#tabla_2{
+	width: 100%;
+	border-style: solid;
+	border-color: orange;
+	border-spacing: 10px;
+	border-collapse: collapse;
+}
+#tabla_2 th, #tabla_2 td{
+	 border: 5px solid;
+}
+#tabla_2 tbody tr:nth-child(even){
+	background-color: brown;
+}
+#tabla_2 tbody tr:nth-child(odd){
+	background-color: goldenrod;
+}
+#tabla_3{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+#tabla_3 th{
+	height: 60px;
+}
+#tabla_3 td{
+	height: 30px;
+	padding-left: 10px;
+}
+#tabla_3 th, #tabla_3 td{
+	border: 2px solid red;
+}
+#tabla_3 tr:hover{
+	background-color: yellowgreen;
+}
+h1,h6{
+	text-align: center;
+	font-size: 48px;
+}
+h6{
+	font-size: 18px;
+}
